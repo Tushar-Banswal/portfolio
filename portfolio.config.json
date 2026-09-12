@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "siteTitle": "Tushar Banswal — Full-Stack Developer",
+    "siteDescription": "Portfolio of Tushar Banswal, a Full-Stack Developer specializing in real-time systems, scalable web applications, and modern user experiences.",
+    "accentColor": "#00e5a0",
+    "accentColorSecondary": "#00c8ff"
+  },
+
+  "nav": {
+    "logo": "TB",
+    "ctaLabel": "Hire Me →",
+    "ctaHref": "#contact",
+    "links": [
+      { "label": "About",    "href": "#about"    },
+      { "label": "Work",     "href": "#work"     },
+      { "label": "Services", "href": "#services" },
+      { "label": "Reviews",  "href": "#reviews"  },
+      { "label": "Contact",  "href": "#contact"  }
+    ]
+  },
+
+  "hero": {
+    "word1": "FULL-STACK",
+    "word2": "DEVELOPER.",
+    "name": "Tushar Banswal",
+    "availability": "Developer, Engineer, and Problem Solver",
+    "bio": "I engineer real-time, scalable web products — from pixel-perfect UIs to high-throughput backend systems.",
+    "ticker": ["React", "Node.js", "TypeScript", "WebSockets", "MQTT", "Next.js", "MongoDB", "MSSQL", "Azure DevOps", "Playwright"],
+    "stats": [
+      { "value": "2+",  "label": "Years Experience" }
+    ],
+    "socialLinks": [
+      { "platform": "GitHub",   "icon": "github",   "url": "https://github.com/Tushar-Banswal" },
+      { "platform": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/tushar-banswal2003/" }
+    ],
+    "cta": {
+      "primary":   { "label": "View My Work →",  "href": "#work" },
+      "secondary": { "label": "Download Resume", "href": "./assets/Resume.pdf" }
+    }
+  },
+
+  "about": {
+    "sectionNum": "01",
+    "statement": "A developer who cares deeply about both code <em>quality</em> and <em>real-time performance</em>.",
+    "paragraph": "With 2+ years shipping production-grade applications, I specialize in real-time telemetry systems, scalable backend APIs, and enterprise-grade full-stack frameworks — ensuring every product is fast, maintainable, and delightful to use.",
+    "skills": [
+      { "category": "Frontend",            "items": ["React.js", "Next.js", "Svelte", "MUI", "Redux"] },
+      { "category": "Backend & Real-time", "items": ["Node.js", "Express.js", "WebSockets", "Socket.io", "MQTT"] },
+      { "category": "Database",            "items": ["MongoDB", "MSSQL", "Mongoose", "Aggregation Pipelines"] },
+      { "category": "DevOps & QA",         "items": ["Azure DevOps", "GitHub Actions", "Playwright", "CI/CD"] }
+    ]
+  },
+
+  "work": {
+    "sectionNum": "02",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Real-Time Telemetry System",
+        "category": "Full-Stack / IoT",
+        "description": "Engineered low-latency, bidirectional data streaming using MQTT and WebSockets across critical medical equipment tracking modules — EndoScopes, Active Dashboard, Cycle Info.",
+        "tags": ["Node.js", "WebSockets", "MQTT", "Socket.io", "MongoDB"],
+        "image": "./assets/project_thumb_1.jpg",
+        "liveUrl": null,
+        "codeUrl": null,
+        "featured": true
+      },
+      {
+        "id": 3,
+        "title": "t-Lang — Custom Interpreted Language",
+        "category": "Language Design / Compilers",
+        "description": "Designed and built an interpreted programming language from scratch — implementing a Lexer, AST generator, and execution engine with lexical scoping, control flow, and an interactive CLI REPL.",
+        "tags": ["JavaScript", "Node.js", "AST", "Lexer", "Data Structures"],
+        "image": "./assets/project_thumb_3.jpg",
+        "liveUrl": null,
+        "codeUrl": "https://github.com/Tushar-Banswal/t-Lang",
+        "featured": false
+      }
+    ]
+  },
+
+  "services": {
+    "sectionNum": "03",
+    "items": [
+      { "icon": null, "title": "Full-Stack Web Development",  "description": "End-to-end web applications built with React, Next.js, and Node.js — optimized for performance, scalability, and clean architecture." },
+      { "icon": null, "title": "Real-Time Systems",            "description": "Low-latency, bidirectional data streaming using WebSockets, Socket.io, and MQTT for dashboards, IoT, and live collaboration tools." },
+      { "icon": null, "title": "API & Backend Engineering",    "description": "Robust RESTful APIs, microservices, and MongoDB/MSSQL database architecture with secure enterprise authentication (OAuth, Entra ID, LDAP)." },
+      { "icon": null, "title": "Test Automation & CI/CD",      "description": "End-to-end automated testing with Playwright and TypeScript, integrated into Azure DevOps and GitHub Actions pipelines." },
+      { "icon": null, "title": "UI/UX Design & Component Libs", "description": "Clean, accessible interface design plus reusable component libraries (MUI, custom) that accelerate cross-team feature delivery." },
+      { "icon": null, "title": "Code Review & Consulting",     "description": "Architecture review, MongoDB aggregation optimization, performance auditing, and hands-on consulting to reduce technical debt." }
+    ]
+  },
+
+  "reviews": null,
+
+  "contact": {
+    "sectionNum": "05",
+    "giantLine1": "LET'S",
+    "giantLine2": "TALK.",
+    "availability": "🟢 Say Hello",
+    "subline": "Have a project in mind or just want to say hello? I'm always open to new conversations and collaborations.",
+    "email":    { "label": "Send an Email",    "address": "tusharbanswal2003@gmail.com", "description": "Project briefs, proposals, enquiries" },
+    "whatsapp": { "label": "Chat on WhatsApp", "number":  "+91 7818035691",             "link": "https://wa.me/917818035691" }
+  },
+
+  "footer": {
+    "copyright": "© 2026 Tushar Banswal",
+    "tagline": "Made with ❤️ and ☕"
+  }
+}
